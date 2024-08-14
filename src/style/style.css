@@ -1,0 +1,42 @@
+body {
+    background: #352f5b;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 23px;
+  }
+  
+  .container {
+    max-width: 400px;
+  }
+  
+  input[type="text"],
+  input[type="text"]:focus {
+    color: #fff;
+    border: none;
+    background: rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+  }
+  
+  .todos li {
+    background: #423a6f;
+    color: #fff;
+  }
+  
+  .delete {
+    cursor: pointer;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    color: grey; 
+    opacity: 0.6; 
+  }
+  
+  .btn:hover {
+    background: #423a6f;
+    color: #fff;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-radius: 13px 13px;
+    transition: 0.8s;
+  }
+  
